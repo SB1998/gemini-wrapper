@@ -9,8 +9,8 @@ It whitelists urls starting with:
 
 Steps to setup:
 - install node (eg. with asdf)
-- ```npm install```
+- ```npm install``` or ```yarn install```
 - follow with:
-    - *to run (directly electron)*: ```npm run start```
-    - *to build (AppImage for linux, find it in dist/):*: ```npm run build```
+    - *to run (directly electron)*: ```npm run start``` or ```yarn run start```
+    - *to build (AppImage for linux, find it in dist/):*: ```npm run build``` or ```yarn run build```
 
