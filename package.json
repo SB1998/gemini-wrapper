@@ -1,0 +1,29 @@
+{
+  "name": "gemini-desktop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "electron . --no-sandbox",
+    "build": "electron-builder --linux AppImage --publish never",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "build": {
+    "appId": "com.github.sb1998.gemini-wrapper",
+    "publish": false,
+    "productName": "Gemini Wrapper",
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Network"
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "electron": "^36.2.0",
+    "electron-builder": "^26.0.12"
+  }
+}
